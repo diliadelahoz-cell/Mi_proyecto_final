@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cerrajería Dany</title>
+
+    <!-- CONEXION CON CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <h1>🔑 CERRAJERÍA DANY</h1>
+
+        <h3>Tu seguridad es nuestra prioridad</h3>
+
+        <p>Servicio y comercio</p>
+
+    </header>
+
+
+    <!-- MENU DE NAVEGACION -->
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#nosotros">Nosotros</a>
+
+        <a href="#productos">Productos</a>
+
+        <a href="#calculadora">Precios</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- INICIO -->
+    <section id="inicio">
+
+        <h2>Bienvenidos a Cerrajería Dany</h2>
+
+        <p>
+            Ofrecemos soluciones de cerrajería para tu hogar,
+            negocio y vehículo.
+        </p>
+
+        <p>
+            Contamos con duplicados de llaves, candados,
+            cerraduras y diferentes accesorios.
+        </p>
+
+    </section>
+
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="aside-section">
+        <div class="main-content">
+            <h2>Sobre nosotros</h2>
+
+            <p>
+                Somos un emprendimiento dedicado a los servicios
+                de cerrajería y comercio.
+            </p>
+
+            <p>
+                Iniciamos el 19 de enero de 2010,
+                ofreciendo productos y servicios para
+                satisfacer las necesidades de nuestros clientes.
+            </p>
+
+            <p>
+                Nos caracterizamos por brindar atención,
+                responsabilidad y confianza.
+            </p>
+        </div>
+
+        <aside class="aside-container">
+            <img src="./img/dilia cerrajera.png" alt="" class="aside-img">
+        </aside>
+
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+    <section id="productos">
+
+        <h2>Nuestros productos y servicios</h2>
+
+        <div class="productos">
+
+
+            <!-- PRODUCTO 1 -->
+            <div class="producto">
+
+                <h3>Duplicados de llaves</h3>
+
+                <p>
+                    Llaves para casas, candados
+                    y vehículos.
+                </p>
+
+                <p>
+                    <strong>Precio: $4.000 - $5000 - $ 6000 - $35.000</strong>
+                </p>
+
+                <img src="./img/candados.jpg" alt="" class="grid-images">
+
+            </div>
+
+
+            <!-- PRODUCTO 2 -->
+            <div class="producto">
+
+                <h3>Candados</h3>
+
+                <p>
+                    Candados de diferentes marcas
+                    y modelos.
+                </p>
+
+                <p>
+                    <strong>Precio: $17.000 - $18.000 - $20.000 - $25.000 - $55.000</strong>
+                </p>
+
+                <img src="./img/candados.jpg" alt="" class="grid-images">
+                
+
+            </div>
+
+
+            <!-- PRODUCTO 3 -->
+            <div class="producto">
+
+                <h3>Llaveros</h3>
+
+                <p>
+                    Llaveros de diferentes motivos
+                    y materiales.
+                </p>
+
+                <p>
+                    <strong>Precio: $1.500 - $3500 - $4000 - $5.000</strong>
+                </p>
+                <img src="./img/candados.jpg" alt="" class="grid-images">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- CALCULADORA DE PRECIOS -->
+    <section id="calculadora" class="aside-section">
+
+        <div class="main-content">
+
+            <h2>Calculadora de precios</h2>
+
+            <p>
+                Selecciona un producto e ingresa
+                la cantidad que deseas comprar.
+            </p>
+
+            <label for="producto">
+                Selecciona un producto:
+            </label>
+
+            <br>
+
+            <select id="producto">
+
+                <option value="4500">
+                    Duplicado de llave ($4.500)
+                </option>
+
+                <option value="55000">
+                    Candado ($55.000)
+
+                <option value="3500">
+                    Llavero ($3.500)
+                </option>
+
+            </select>
+
+            <br>
+
+            <label for="cantidad">
+                Ingresa la cantidad:
+            </label>
+
+            <br>
+
+            <input
+                type="number"
+                id="cantidad"
+                min="1"
+                value="1"
+            >
+
+            <br>
+
+            <button onclick="calcularPrecio()">
+
+                Calcular precio
+
+            </button>
+
+            <h3 id="resultado">
+
+                Total: $4.500
+
+            </h3>
+
+        </div>
+        <aside class="aside-container">
+            <img src="./img/llaves.jpg" alt="llaves" class="aside-img">
+        </aside>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <p>
+            Teléfono: 3136801258
+        </p>
+
+        <p>
+            WhatsApp: 3136801258
+        </p>
+
+        <p>
+            Ubicación
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3245082907415!2d-74.7947326259281!3d10.938841356178607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2a3533424b5%3A0x177fe40ebb6f6ba3!2sCra%204%20%2337c-41%2C%20Sur%20Orient%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1795143557481!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+        </p>
+        <br>
+
+        <p>
+            Emprendimiento: <strong>Cerrajería Dany</strong>
+        </p>
+
+    </section>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+        <p><strong>Cerrajería Dany</strong></p>
+
+        <p>Tu seguridad es nuestra prioridad</p>
+
+        <p>© 2026 Todos los derechos reservados</p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function calcularPrecio() {
+
+            // Obtener el precio del producto
+            let producto = Number(
+                document.getElementById("producto").value
+            );
+
+            // Obtener la cantidad
+            let cantidad = Number(
+                document.getElementById("cantidad").value
+            );
+
+            // Validar la cantidad
+            if (!Number.isInteger(cantidad) || cantidad < 1) {
+
+                document.getElementById("resultado").innerHTML =
+                    "Por favor, ingresa una cantidad válida.";
+
+                return;
+
+            }
+
+            // Calcular el precio total
+            let total = producto * cantidad;
+
+            // Mostrar el resultado
+            document.getElementById("resultado").innerHTML =
+                "Total: $" + total.toLocaleString("es-CO");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
+<img src="imagenes/llaves.jpg"
+     alt="Duplicados de llaves">
