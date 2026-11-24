@@ -65,7 +65,6 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 15px;
     font-weight: bold;
     transition: 0.3s;
@@ -159,8 +158,11 @@ section p {
 }
 
 .aside-img {
+    display: block;
+    width: 100%;
     max-width: 500px;
     max-height: 500px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -237,6 +239,15 @@ section p {
     border-left: 4px solid #e9ae35;
 }
 
+#contacto iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin: 0 auto;
+}
+
 /* =================================
    PIE DE PAGINA
 ================================= */
@@ -254,41 +265,125 @@ footer p {
 }
 
 /* =================================
+   DISEÑO PARA TABLETAS
+================================= */
+
+@media (max-width: 900px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 24px;
+        padding: 14px;
+    }
+
+    section {
+        padding: 50px 6%;
+        margin: 20px 4%;
+    }
+
+    .productos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .aside-section {
+        gap: 2rem;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+}
+
+/* =================================
    DISEÑO PARA CELULARES
 ================================= */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    header {
+        padding: 35px 16px;
+    }
 
     header h1 {
-        font-size: 28px;
+        font-size: clamp(23px, 7vw, 28px);
+        letter-spacing: 1px;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    nav {
+        gap: 8px 18px;
+        padding: 12px;
     }
 
     nav a {
-        display: inline-block;
-        margin: 7px;
         font-size: 14px;
     }
 
     section {
         padding: 35px 20px;
-        margin: 15px;
-    }
-
-    .grid-images {
-        object-fit: cover;
-        max-width: 100px;
-        max-height: 100px;
-    }
-
-    .productos {
-        grid-template-columns: 1fr;
+        margin: 15px 4%;
+        border-radius: 12px;
     }
 
     section h2 {
-        font-size: 24px;
+        font-size: 23px;
     }
 
+    .productos {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .producto {
+        padding: 24px 16px;
+    }
+
+    .producto h3 {
+        font-size: 19px;
+    }
+
+    .aside-section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+    }
+
+    .aside-section > * {
+        min-width: 0;
+    }
+
+    .aside-img {
+        max-height: 360px;
+        margin: 0 auto;
+    }
+
+    #calculadora select,
+    #calculadora input {
+        max-width: none;
+    }
+
+    #calculadora button {
+        max-width: 100%;
+        padding: 13px 20px;
+    }
+
+    #resultado {
+        font-size: 22px;
+    }
+
+    #contacto iframe {
+        max-height: 360px;
+    }
 }
+
 .producto img {
     width: 100%;
     height: 200px;
