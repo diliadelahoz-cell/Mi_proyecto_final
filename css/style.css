@@ -1,6 +1,6 @@
 
 /* =================================
-   ESTILOS GENERALES
+          ESTILOS GENERALES
 ================================= */
 
 * {
@@ -21,7 +21,7 @@ body {
 }
 
 /* =================================
-   ENCABEZADO
+           ENCABEZADO
 ================================= */
 
 header {
@@ -49,7 +49,7 @@ header p {
 }
 
 /* =================================
-   MENU DE NAVEGACION
+          MENU DE NAVEGACION
 ================================= */
 
 nav {
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 /* =================================
-   SECCIONES
+             SECCIONES
 ================================= */
 
 section {
@@ -104,7 +104,7 @@ section p {
 }
 
 /* =================================
-   CATALOGO DE PRODUCTOS
+       CATALOGO DE PRODUCTOS
 ================================= */
 
 .productos {
@@ -145,7 +145,7 @@ section p {
 }
 
 /* =================================
-   CALCULADORA DE PRECIOS
+     CALCULADORA DE PRECIOS
 ================================= */
 
 .aside-section {
@@ -223,7 +223,7 @@ section p {
 }
 
 /* =================================
-   CONTACTO
+              CONTACTO
 ================================= */
 
 #contacto {
@@ -252,7 +252,7 @@ section p {
 }
 
 /* =================================
-   PIE DE PAGINA
+          PIE DE PAGINA
 ================================= */
 
 footer {
@@ -268,7 +268,7 @@ footer p {
 }
 
 /* =================================
-   DISEÑO PARA TABLETAS
+         DISEÑO PARA TABLETAS
 ================================= */
 
 @media (max-width: 900px) {
@@ -304,7 +304,7 @@ footer p {
 }
 
 /* =================================
-   DISEÑO PARA CELULARES
+        DISEÑO PARA CELULARES
 ================================= */
 
 @media (max-width: 600px) {

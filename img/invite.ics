@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:GMT-5
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Bogota:20261124T160000
+DTEND;TZID=America/Bogota:20261124T170000
+DTSTAMP:20261123T202642Z
+ORGANIZER;CN=SECRETARIA SAN JOSE HERMANITAS DE LA ANUNCIACION:mailto:secret
+ ariaacademicasanjose@gmail.com
+UID:3q2b25t9ih07ign9lsctqr01k3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=SECRETARIA SAN JOSE HERMANITAS DE LA ANUNCIACION;X-NUM-GUESTS=0:mailto:
+ secretariaacademicasanjose@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=pierisdve98@gmail.com;X-NUM-GUESTS=0:mailto:pierisdve98@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=darlingdonado0520@gmail.com;X-NUM-GUESTS=0:mailto:darlingdonado0520@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=julypertuz12@gmail.com;X-NUM-GUESTS=0:mailto:julypertuz12@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=javierjr20@hotmail.com;X-NUM-GUESTS=0:mailto:javierjr20@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=lurbisc@gmail.com;X-NUM-GUESTS=0;X-RESPONSE-COMMENT="Mia Victoria Solan
+ o Celin ":mailto:lurbisc@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=mariaalejandratrianau@gmail.com;X-NUM-GUESTS=0:mailto:mariaalejandratri
+ anau@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=diliadelahoz@gmail.com;X-NUM-GUESTS=0:mailto:diliadelahoz@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=mcamilaucros@hotmail.com;X-NUM-GUESTS=0:mailto:mcamilaucros@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=yuranis146@gmail.com;X-NUM-GUESTS=0:mailto:yuranis146@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=tatianacartusciello1997@gmail.com;X-NUM-GUESTS=0:mailto:tatianacartusci
+ ello1997@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=joh.bermeo@gmail.com;X-NUM-GUESTS=0:mailto:joh.bermeo@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=npcaballero@jdc.edu.co;X-NUM-GUESTS=0:mailto:npcaballero@jdc.edu.co
+X-GOOGLE-CONFERENCE:https://meet.google.com/ozg-zwmq-kjt
+X-MICROSOFT-CDO-OWNERAPPTID:336314823
+CREATED:20261123T202456Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nUnirse con Google Meet: https://meet.google.com/o
+ zg-zwmq-kjt\n\nMás información sobre Meet: https://support.google.com/a/use
+ rs/answer/9282720\n\nNo edites esta sección.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20261123T202641Z
+LOCATION:https://meet.google.com/ozg-zwmq-kjt
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reunión Virtual 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
